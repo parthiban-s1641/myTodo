@@ -276,6 +276,21 @@ option {
   border-color: #333;
 }
 
+.itemDate,
+.itemHour {
+  color: rgb(224, 192, 197);
+  font-weight: bold;
+}
+
+.timehour {
+  display: flex;
+  justify-content: space-around;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
 @media (max-width: 680px) {
   .inner-container {
     width: 80%;
